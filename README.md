@@ -1,4 +1,6 @@
-# LLM-Serve
+<h1 align="center">Text Generation Server</h1>
+
+<h2 align="center">Serving Large Language Models as an API Endpoint for Inference</h2>
 
 ## Table of Contents
 
