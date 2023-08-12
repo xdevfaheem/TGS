@@ -16,7 +16,7 @@
 
 ## Introduction
 
-This Project Aims to Effortlessly Deploy and Host Large Language Models in the Cloud. This repository provides streamlined Server Side Code to deploy your LLMs in a cloud environment, Enabling Seamless Inference through API calls on your local system.
+This Project Aims to Effortlessly Deploy and Serve Large Language Models in the Cloud as an API Endpoint and a Simple chat interface for inference. This Repository provides streamlined Server Side Code to deploy your LLMs in a cloud environment, Enabling Seamless Inference through chat interface on your local system.
 
 ## Getting Started
 
@@ -26,7 +26,7 @@ If You Want to Start Deploying and Host your Model in Cloud. Follow the Steps be
 
 First of all, Clone this Repository and Get in into this directory
   ```sh
-  git clone https://github.com/TheFaheem/LLM_Serve.git && cd LLM-Serve
+  git clone https://github.com/TheFaheem/TGS.git && cd TGS
   ```
 
 ### Requirements
