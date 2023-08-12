@@ -43,7 +43,7 @@ After Setting this repository in your Cloud Machine. You can start deploying you
 You Can Start the Deploying your Model as an API Endpoint in the Cloud by Running the Following Command
 with the AppropriateArguments Below.
   ```sh
-  python ServerSide.py --model_type ${MODEL TYPE} --repo_id ${REPO ID} --revision ${REVISION} --model_basename ${MODEL BASENAME} --trust_remote_code ${TRUST REMOTE CODE} --safetensors ${SAFETENSOR}
+  python serve.py --model_type ${MODEL TYPE} --repo_id ${REPO ID} --revision ${REVISION} --model_basename ${MODEL BASENAME} --trust_remote_code ${TRUST REMOTE CODE} --safetensors ${SAFETENSOR}
   ```
 #### Arguments Detail:
 
@@ -55,9 +55,9 @@ with the AppropriateArguments Below.
 - SAFETENSOR - Whether or not to use Safetensor
 
 ### Inferencing:
-You can Start the Chat Interface backed by you're Model from your local system by running the following command in your terminal. The `ClientSide.py` File will Take care of All The API Calls Behind
+You can Start the Chat Interface backed by you're Model from your local system by running the following command in your terminal. The `inference.py` File will Take care of All The API Calls Behind
   ```sh
-  python ClientSide.py --endpoint ${ENDPOINT} --streaming ${STREAMING} --max_tokens ${MAX TOKENS} --ht_ws ${HTWS} --temperature ${TEMPERATURE} --top_p ${TOP_P} --top_k ${TOP_K}
+  python inference.py --endpoint ${ENDPOINT} --streaming ${STREAMING} --max_tokens ${MAX TOKENS} --ht_ws ${HTWS} --temperature ${TEMPERATURE} --top_p ${TOP_P} --top_k ${TOP_K}
   ```
 
 #### Arguments Detail:
