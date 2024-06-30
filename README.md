@@ -1,6 +1,7 @@
 <h1 align="center">Text Generation Server</h1>
 
-<h2 align="center">Serving Large Language Models as an API Endpoint for Inference</h2>
+<h2 align="center">Serving Large Language Models as an API Endpoint for Inference
+(This scripts are bit outdated as it uses outdated version of inference libs, I hoping to work on it soon. Also there is much great LLM serving frameworks like Ollama)</h2>
 
 ## Table of Contents
 
